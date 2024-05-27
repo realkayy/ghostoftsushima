@@ -1,0 +1,320 @@
+body {
+    
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+   
+    background-color: #1c1c1c;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    font-size: 2.3em;
+    font-family: 'Brush Script MT', cursive;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10 px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555555;
+    transform: scale(1.1);
+}
+
+main {
+    padding-top: 70px;
+}
+
+section {
+    margin-bottom: 40px;
+    padding: 35px;
+}
+
+.home-section {
+    background: url('wallpaper.jpeg') no-repeat center center/cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+.home-content {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 60px;
+    width: 400px;
+
+}
+
+section ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #1c1c1c;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.caixa-transparente {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.caixa-transparente-inferior-direita {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    color: #333;
+    width: 250px; 
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('./blade.jpg') no-repeat center center fixed;
+    background-size: contain;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+.dica {
+    
+    background: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.dica h3 {
+    color: #333;
+}
+.dica p {
+    color: #555;
+}
+.dica img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.caixa-transparente {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: #333;
+}
+.search-label {
+    display: none; 
+    margin-left: 20px;
+}
+.search-label input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.search-label button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.search-label button.postar-forum {
+    background-color: green;
+    color: white;
+}
+#newTag,
+button[onclick="addTag()"] {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#newTag {
+    right: 120px; 
+}
+
+button[onclick="addTag()"] {
+    right: 10px; 
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    margin-right: 10px;
+}
+.tag-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.tag {
+    background-color: #ccc;
+    color: #333;
+    border-radius: 10px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    width: 80px;
+}
+
+.tag button.remove-tag {
+    background: none;
+    border: none;
+    color: #333;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.tag button.remove-tag:hover {
+    color: #ff0000;
+}
+.tag {
+    display: flex; 
+    margin-right: 5px; 
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-size: cover;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+.dica {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.dica h3 {
+    color: #333;
+}
+.dica p {
+    color: #555;
+}
+.dica img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.caixa-transparente {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: #333;
+}
+.search-label {
+    display: none; 
+    margin-left: 20px;
+}
+.search-label input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.search-label button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+
+.search-label button.postar-forum {
+    background-color: green;
+    color: white;
+}
+.dica {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px; 
+}
+.tag {
+    margin-right: 5px; 
+}
+.action-buttons {
+    margin-top: 10px;
+}
+
+.action-buttons button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.alterar {
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.excluir {
+    background-color: #f44336; 
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.alterar:hover, .excluir:hover {
+    opacity: 0.8;
+}
+.caixa-transparente1{
+    margin: 5rem auto 2rem auto; 
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.8); 
+    border-radius: 10px;
+    width: 800px;
+    height: 380px;
+}

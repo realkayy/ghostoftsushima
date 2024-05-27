@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ghost of Tsushima Login</title>
+    <link rel="stylesheet" href="html/login/styles.css" />
+  </head>
+  <body>
+    <div class="background">
+      <div class="login-container">
+        <h1 class="title">Ghost Of Tsushima</h1>
+        <h2 class="subtitle">Welcome to Tsushima</h2>
+        <p class="tagline">Entre para a luta!</p>
+        <form id="loginForm" action="src/login.php" method="post">
+          <label for="login">Login:</label>
+          <input type="text" id="login" name="login" required />
+          <label for="senha">Senha:</label>
+          <input type="password" id="senha" name="senha" required />
+          <label for="">#resultado</label>
+          <button type="submit">Login</button>
+          <br />
+          <a href="html/cadastro.html">Faça seu cadastro</a>
+        </form>
+        <p id="aviso" class="aviso hidden">
+          Por favor, preencha todos os campos!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
